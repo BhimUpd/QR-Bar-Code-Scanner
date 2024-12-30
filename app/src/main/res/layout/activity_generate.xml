@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".generate_activity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/generator_background"
+    android:layout_marginTop="40sp">
+
+    <EditText
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your data"
+        android:textColor="#fff"
+        android:background="#3F51B5"
+        android:padding="20sp"
+        android:id="@+id/dataToGenerateCode"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate"
+        android:layout_marginTop="30sp"
+        android:padding="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/button_design"
+        android:id="@+id/generateFinally"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blur_qr"
+        android:layout_marginTop="30sp"
+        android:id="@+id/generatedImageView"
+        />
+
+</LinearLayout>
