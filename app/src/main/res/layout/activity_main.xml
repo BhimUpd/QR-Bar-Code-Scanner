@@ -24,7 +24,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:id="@+id/scanButton"
-        android:text="Scan Code"
+        android:text="@string/scanCode"
         android:background="@drawable/button_design"
         android:textColor="#fff"
         />
@@ -32,7 +32,7 @@
         android:layout_marginTop="100sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Generate Code"
+        android:text="@string/generateCode"
         android:padding="20sp"
         android:textSize="25sp"
         android:textStyle="bold"
